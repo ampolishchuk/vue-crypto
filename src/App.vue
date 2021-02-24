@@ -165,7 +165,7 @@ export default {
         if (this.select?.name === newTicker.name) {
           this.graph.push(data.USD);
         }
-      }, 3000);
+      }, 2000);
 
       this.ticker = "";
     },
